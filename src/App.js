@@ -40,7 +40,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Food Searching App</h1>
+      <h1>Food Recipe Searching App</h1>
+        <h2>Makes Your Experience</h>
       <form onSubmit={onSubmit} className="search-form">
         {alert !== "" && <Alert alert={alert} />}
         <input
